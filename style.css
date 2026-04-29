@@ -1,0 +1,108 @@
+/* Simple CSS Reset */
+ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+/* Nav */
+nav {
+ padding: 30px;
+ border: 1px solid #8b4d4d;
+}
+
+nav ul {
+display: flex ; 
+flex-direction: row; 
+align-items: center;
+justify-content: center;
+list-style: none;
+ gap: 60px;
+}
+
+nav ul li a {
+ color: #0A0A0A;
+ font-size: 20px;
+ text-decoration: underline;
+ font-weight: bold;
+}
+
+
+
+/* Header */
+header {
+    display: flex;
+ flex-direction: column;
+    justify-content: center;
+ text-align: center;
+ background-color: #ede1e1;
+ padding: 10px;
+ color: black;
+}
+
+
+/* Main */
+main {
+ display: flex;
+ flex-direction: column;
+ gap: 30px;
+}
+
+main section {
+ padding: 24px;
+ border: 1px solid #808080;
+}
+
+main section h2 {
+ font-size: 18px;
+ border-bottom: 1px solid #0A0A0A;
+ padding-bottom: 8px;
+ margin-bottom: 16px;
+}
+
+main article {
+ display: flex;
+ flex-direction: column;
+ gap: 8px;
+ margin-bottom: 12px;
+}
+
+main section h3 {
+ font-size: 16px;
+}
+
+main section p {
+ font-size: 14px;
+ color: #000000;
+}
+
+main section ul {
+ font-size: 15px;
+ margin-top: 8px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.profile-pic {
+    width: 200px;
+  height: 150px;
+object-fit: fill;
+border-radius: 8%
+}
+
+/* Footer */
+footer {
+ background-color: black;
+ color: white;
+ padding: 20px;
+}
